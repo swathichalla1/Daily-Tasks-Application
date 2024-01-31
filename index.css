@@ -1,0 +1,171 @@
+.rootContainer{
+    min-height:100vh;
+    background-color:pink;
+    padding:10px;
+}
+.heading{
+    color:crimson;
+    font-size:30px;
+    text-align:center;
+}
+.createTask{
+    color:crimson;
+    font-size:24px;
+    text-align:left;
+    margin-left:20px;
+    font-weight:500;
+    
+}
+.taskInput{
+    margin-left:20px;
+    background-color:cornsilk;
+    width: 55%;
+    border-style: solid;
+    border-width: 1px;
+    border-color:crimson;
+    border-radius: 10px;
+    margin-top: 5px;
+    padding: 15px;
+}
+.selectInput{
+    margin-left:20px;
+    background-color:cornsilk;
+    width: 50%;
+    border-style: solid;
+    border-width: 1px;
+    border-color:crimson;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 15px;
+}
+.addButton{
+    color:crimson;
+    font-weight:800;
+    background-color:cornsilk;
+    width: 40%;
+    border-style: solid;
+    border-width: 1px;
+    border-color:crimson;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    margin-left:20px;
+    cursor:pointer;
+}
+.addButton:hover{
+    background-color:crimson;
+    color:white;
+}
+
+.buttonsContainer{
+    margin-top:10px;
+    margin-left:20px;
+    flex-wrap:wrap;
+    padding-left:15%;
+}
+.eachButton{
+    margin:10px;
+    text-align:center;
+    height:30px;
+    min-width:100px;
+    border-radius:10px;
+    border:2px dashed crimson;
+    color:crimson;;
+    font-weight:500;
+    background-color:cornsilk;
+}
+.eachButton:hover{
+    background-color:crimson;
+    color:white;
+}
+.checked {
+    text-decoration: line-through;
+}
+.checkbox-input {
+    width: 20px;
+    height: 20px;
+    margin-top: 12px;
+    margin-right: 12px;
+}
+.task-item-container{
+    margin-top: 15px;
+    display:flex;
+    flex-direction:row;
+}
+.label-container {
+    background-color:cornsilk;
+    width: 80%;
+    border-style: solid;
+    border-width: 4px;
+    border-color: crimson;
+    border-top: none;
+    border-bottom: none;
+    border-radius: 10px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+.checkbox-label {
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+    width: 82%;
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+}
+.delete-icon-container {
+    text-align: right;
+    margin-right:10px;
+}
+
+.delete-icon {
+    padding: 15px;
+}
+.save{
+    color:crimson;
+    font-weight:800;
+    background-color:cornsilk;
+    width: 20%;
+    border-style: solid;
+    border-width: 1px;
+    border-color:crimson;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    margin-left:20%;;
+    cursor:pointer;
+    margin-bottom:40px;
+}
+
+.save:hover{
+    background-color:green;
+    color:white;
+    
+}
+.delete{
+    height:30px;
+    
+    min-width:60px;
+    color:red;
+    border:2px solid red;
+    margin-top:5px;
+    border-radius:5px;
+}
+.delete:hover{
+    background-color:red;
+    color:white;
+}
+.taskHeading{
+    color:darkred;
+    font-size:20px;
+    text-align:center;
+    text-decoration:underline;
+}
+.empty{
+    color:crimson;
+    text-align:center;
+}
